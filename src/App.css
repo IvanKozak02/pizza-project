@@ -392,6 +392,10 @@ input[placeholder], textarea[placeholder] {
     .contact {
         height: fit-content;
     }
+
+    .header-container p{
+        text-align: center;
+    }
 }
 
 
@@ -420,6 +424,19 @@ input[placeholder], textarea[placeholder] {
 
 .footer p {
     color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .social-media svg{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .social-media svg{
+        font-size: 40px;
+    }
 }
 
 /* footer */
